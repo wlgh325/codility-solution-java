@@ -5,7 +5,7 @@ import java.util.*;
 public class Solution {
     public int solution(String S) {
         Set<Character> left = new HashSet<>(Arrays.asList('(', '[', '{'));
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new ArrayDeque<>();
 
         for(int i=0; i<S.length(); i++) {
             char ch = S.charAt(i);
