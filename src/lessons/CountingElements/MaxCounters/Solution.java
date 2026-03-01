@@ -1,3 +1,5 @@
+package lessons.CountingElements.MaxCounters;
+
 class Solution {
     public int[] solution(int N, int[] A) {
         int[] result = new int[N];
